@@ -66,6 +66,10 @@
     @media(max-width:800px){.section-head{flex-direction:column;gap:18px}.section-head .title{width:100%;max-width:100%}}
     @media(max-width:520px){.hero h1{font-size:clamp(42px,12vw,62px)}.gallery{grid-template-columns:1fr}.gallery img:first-child{grid-column:auto}.play-icon{width:48px;height:48px;flex-basis:48px}.showreel-action{gap:12px}.play-copy>span{font-size:9px;margin-top:6px}.hero .eyebrow{line-height:1.6}.stats .stat{padding:22px 16px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.play-icon{transition:none}}
+    .film-feature{margin-bottom:clamp(48px,7vw,90px)}
+    .film-heading{font-size:clamp(28px,3.5vw,48px);line-height:1.1;letter-spacing:-.04em;margin:0 0 16px}
+    .film-description{font-size:18px;line-height:1.5;color:#d4d0c8;max-width:760px;margin:0 0 28px}
+    .film-secondary-title{font-size:clamp(22px,2.6vw,34px);font-weight:500;line-height:1.2;margin:0 0 24px}
   </style>
 </head>
 <body>
@@ -84,6 +88,21 @@
 
   <section id="showreel"><div class="wrap">
     <div class="section-head"><span class="num">01 / SHOWREEL</span><h2 class="title">Selected AI film work</h2></div>
+    <div class="film-feature">
+      <h3 class="film-heading" id="human-stories-title">Человеческие истории</h3>
+      <p class="film-description">Одиночество, семейные конфликты, буллинг и утраты — жизненные истории, воссозданные с помощью AI.</p>
+      <div class="showreel-shell">
+        <iframe id="human-stories-player" width="1280" height="720"
+                src="https://www.youtube-nocookie.com/embed/W74gWeaT0gs"
+                title="Человеческие истории — шоурил Инны Мартиновой"
+                loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+      </div>
+      <div class="micro"><span>INNA MARTINOVA — AI FILM SHOWREEL 2026</span><span>Человеческие истории</span></div>
+      <a class="btn" href="https://youtu.be/W74gWeaT0gs" target="_blank" rel="noopener noreferrer">Смотреть на YouTube ↗</a>
+    </div>
+    <h3 class="film-secondary-title">Другие фрагменты AI-фильмов</h3>
     <a class="showreel-shell showreel-link" id="videoMount"
        href="https://youtu.be/gGfT6T7UhXA" target="_blank" rel="noopener noreferrer"
        aria-label="Смотреть шоурил Инны Мартиновой на YouTube — откроется в новой вкладке">
