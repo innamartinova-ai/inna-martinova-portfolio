@@ -70,6 +70,15 @@
     .film-heading{font-size:clamp(28px,3.5vw,48px);line-height:1.1;letter-spacing:-.04em;margin:0 0 16px}
     .film-description{font-size:18px;line-height:1.5;color:#d4d0c8;max-width:760px;margin:0 0 28px}
     .film-secondary-title{font-size:clamp(22px,2.6vw,34px);font-weight:500;line-height:1.2;margin:0 0 24px}
+    .life80-feature{margin-top:clamp(64px,8vw,110px)}
+    .life80-kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+    .life80-placeholder{background:
+      radial-gradient(circle at 72% 26%,rgba(240,190,135,.28),transparent 28%),
+      linear-gradient(135deg,#5a3425 0%,#b37c51 45%,#241a17 100%)}
+    .life80-placeholder::before{content:"LIFE AT 80";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:clamp(42px,8vw,118px);font-weight:600;letter-spacing:-.055em;color:rgba(240,236,227,.09);white-space:nowrap}
+    .life80-placeholder .play-icon{opacity:.8}
+    .life80-placeholder .showreel-overlay{background:linear-gradient(180deg,rgba(0,0,0,.05) 35%,rgba(0,0,0,.72))}
+    .life80-placeholder .play-copy>span{color:#d8d2c9}
   </style>
 </head>
 <body>
@@ -124,6 +133,23 @@
     </a>
     <div class="micro"><span>INNA MARTINOVA — AI FILM SHOWREEL 2026</span><span>Private portfolio / for review</span></div>
     <a class="btn" href="https://youtu.be/gGfT6T7UhXA" target="_blank" rel="noopener">Open showreel on YouTube ↗</a>
+
+    <div class="life80-feature">
+      <div class="life80-kicker">Second chapter</div>
+      <h3 class="film-heading">LIFE AT 80</h3>
+      <p class="film-description">Movement. Breath. Presence.</p>
+      <div class="showreel-shell life80-placeholder" aria-label="LIFE AT 80 — YouTube link will be added later">
+        <div class="showreel-overlay">
+          <div class="showreel-action">
+            <span class="play-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <div class="play-copy">Watch film<span>YouTube link coming soon</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="micro"><span>INNA MARTINOVA — AI SHORT FILM 2026</span><span>LIFE AT 80</span></div>
+    </div>
   </div></section>
 
   <section id="case"><div class="wrap">
